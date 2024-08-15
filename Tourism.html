@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tourism</title>
+        <style> 
+        .parent {
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      .image1 {
+        position: relative;
+        top: 0;
+        left: 0;
+        border: 1px solid #000000;
+      }
+      .child{
+        position:absolute;
+        left:1px;
+        top:1px;
+      }
+      .image2{
+        position:relative;
+        top:10px;
+        left:10px;
+        width: 50px;
+        height:50px;
+        border: 1px solid #000000;
+      }
+      .container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img src="kashmir.jpg" alt="Snow" style="width:100%;">
+            <div class="top-right"><font size="0.5%">1800-1200-1567 </font></div>
+            <div class="centered">
+                <table border="1%">
+                    <tr>
+                        <td><a href="./Overview.html"><font color="white">Overview</font></a></td>
+                        <td><a href="./ttv.html"><font color="white">Best time to visit</font></a></td>
+                        <td><a href="./places.html"><font color="white">Places to visit</font></a></td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+        <header>
+            <table>
+                <tr>
+                    <td>
+                        <div class="child">
+                            <img class="image2" src="logo.jpg" />
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </header>
+    </body>
+</html>
